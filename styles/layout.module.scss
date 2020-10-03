@@ -1,7 +1,7 @@
 .layout {
     color: white;
     .appbar {
-        background: black;
+        background: #0C253D;
         .toolbarRoot {
             justify-content: center;
         }
@@ -43,5 +43,25 @@
         .footerLink:hover {
             text-decoration: underline;
         }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .toolbarRoot {
+        display: flex;
+        flex-direction: column;
+    }
+    .hacktoberfestText{
+        display: none;
+    }
+    .appbarSponsors{
+        height: auto;
+        width: 100%;
+        border-left: none !important;
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .footer{
+        display: none;
     }
 }

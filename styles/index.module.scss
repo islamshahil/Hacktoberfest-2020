@@ -57,6 +57,24 @@
         width: 3rem !important;
         height: 3rem !important;
         font-size: 2rem !important;
-        background: black;
+        background: #0C253D;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .welcomeText {
+        font-size: 2rem !important;
+        width: 90% !important;
+    }
+    .welcomeSubText{
+        font-size: 1rem !important;
+        width: 90% !important;
+    }
+    .contributorsTitle{
+        font-size: 1.6rem !important;
+    }
+    .contributorsSubTitle{
+        font-size: 1.2rem !important;
     }
 }
